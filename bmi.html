@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+    <title>d5AMGym</title>
+         <!--Icon-->
+    <link rel="icon" href="images/dumbbell-solid.svg" type="image/x-icon"/>
+        <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script language="JavaScript">
+        <!--
+        function calculateBmi() {
+        var weight = document.bmiForm.weight.value
+        var height = document.bmiForm.height.value
+        if(weight > 0 && height > 0){	
+        var finalBmi = weight/(height/100*height/100)
+        document.bmiForm.bmi.value = finalBmi
+        if(finalBmi < 18.5){
+        document.bmiForm.meaning.value = "That you are too thin."
+        }
+        if(finalBmi > 18.5 && finalBmi < 25){
+        document.bmiForm.meaning.value = "That you are healthy."
+        }
+        if(finalBmi > 25){
+        document.bmiForm.meaning.value = "That you have overweight."
+        }
+        }
+        else{
+        alert("Please Fill in everything correctly")
+        }
+        }
+        //-->
+    </script>
+    <style>
+        .slider{
+            background-color: black;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  z-index: 1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 400px;
+        }
+        .slider1 .text{
+            padding-top:100px;
+     text-align: left;
+     float: left;
+     font: 700 25px/25px"oswald", sans-serif;
+     color:white;
+
+        }
+    </style> 
+
+    
+</head>
+<body>
+    <header class="all_header_navbar-fixed-top">
+        <!--Top Header Area-->
+        <section class="top_header_area">
+            <div class="container1">
+                <ul class="nav navbar-nav navbar-right social_nav">
+                    <li><a href="#"><i class="fa fa-facebook" ></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                    <li class="cont"><a href="contact.html">LOGIN</a></li>               
+                </ul>
+            </div>
+        </section>
+        <!--End of Top Header Area-->
+    
+        <!--Navigation Area-->
+        <div class="navbar">
+            <div class="container2">
+                    <div class="top-nav">
+                        <a class="logo-to-main" href="index.html"><img class="logo-img" src="" alt=""></a>
+                            <ul>
+                              <li><a href="index.html">HOME</a></li>
+                              <li><a href="about.html">ABOUT US</a></li>
+                              <li><a href="l&p.html">LOCATION & PRICING</a></li>
+                              <li><a href="gallery.html">GALLERY</a></li>
+                              <li><a href="ourteam.html">OUR TEAM</a></li>
+                              <li><a href="joinus.html"><button class="contact-btn">JOIN US</button></a></li>
+                            </ul>
+                    </div>
+            </div>
+        </div>
+        <section class="slider">
+            <div class="slider1"  >
+                <div class="text">
+                    <h1 style="color: yellowgreen;">KNOW YOUR BMI HERE :-</h1>
+        <form name="bmiForm">
+            Your Weight(kg): <input type="text" name="weight" size="10"><br />
+            Your Height(cm): <input type="text" name="height" size="10"><br />
+            <input type="button" value="Calculate BMI" onClick="calculateBmi()" style="display: inline-block; margin: auto;"><br />
+            Your BMI: <input type="text" name="bmi" size="10"><br />
+            This Means: <input type="text" name="meaning" size="25"><br />
+            <input type="reset" value="Reset" style="display: inline-block; margin: auto;">
+            </form>
+                </div>
+            </div> 
+                      
+    </section>
+        
+         <!-- Footer Area -->
+         <footer id=footer-area>
+            <div class="footer">
+                    <div class="inner-footer">
+                        <div class="footer-items">
+                        <h1>d5AMGym <sup>&reg;</sup></h1>
+                        <p>GET READY TO BURN.</p>
+                        </div>
+                        <div class="footer-items">
+                            <h2>QUICK LINKs :-</h2>
+                            <div class="border"></div>
+                            <ul> 
+                                <li><a href="about.html"><i class="fa fa-chevron-right"></i>About Us</a></li>
+                                <li><a href="l&p"><i class="fa fa-chevron-right"></i>Location & Pricing</a></li>
+                                <li><a href="gallery.html"><i class="fa fa-chevron-right"></i>Gallery</a></li>
+                                <li><a href="ourteam.html"><i class="fa fa-chevron-right"></i>Our Team</a></li>
+                                <li><a href="joinus.html"><i class="fa fa-chevron-right"></i>Join Us</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-items">
+                            <h2>CONTACT US</h2>
+                            <div class="border"></div>
+                        
+                                <p>FOR ANY INFO feel free to ask:</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-envelope"></i>infoasr@gmail.com</a></li>
+                                    <li><a href="#"><i class="fa fa-phone"></i>+91 9870365206</a></li>
+                                </ul>
+                                <div class="social-media">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true" ></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
+                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+                                </div>
+                        </div>
+                    </div> 
+                    <div class="copyright_area">
+                        &copy;d5AMGym 2020. All rights reserved. 
+                    </div>
+                </div>
+         </footer>    
+            <!--End Footer Area -->
+</body>

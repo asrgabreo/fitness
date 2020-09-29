@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+    <title>d5AMGym</title>
+         <!--Icon-->
+    <link rel="icon" href="images/dumbbell-solid.svg" type="image/x-icon"/>
+        <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="js/index.js"></script>  
+    
+</head>
+
+<body onload="firstfocus()">
+     
+    <header class="all_header_navbar-fixed-top">
+    <!--Top Header Area-->
+    <section class="top_header_area">
+	    <div class="container1">
+            <ul class="nav navbar-nav navbar-right social_nav">
+                <li><a href="#"><i class="fa fa-facebook" ></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                <li class="cont"><a href="contact.html">LOGIN</a></li>               
+            </ul>
+	    </div>
+	</section>
+    <!--End of Top Header Area-->
+
+    <!--Navigation Area-->
+    <div class="navbar">
+        <div class="container2">
+                <div class="top-nav">
+                    <a class="logo-to-main" href="index.html"><img class="logo-img" src="" alt=""></a>
+                        <ul>
+                          <li><a href="index.html">HOME</a></li>
+                          <li><a href="about.html">ABOUT US</a></li>
+                          <li><a href="l&p.html">LOCATION & PRICING</a></li>
+                          <li><a href="gallery.html">GALLERY</a></li>
+                          <li><a href="ourteam.html">OUR TEAM</a></li>
+                          <li><a href="joinus.html"><button class="contact-btn">JOIN US</button></a></li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+    <!--End Of Navigation Area-->
+    </header>  
+    <!--Slider Area-->
+    <section class="slider-area">
+            <div class="slide-1"  >
+                <div class="text">
+                    <h1 class="promotion-text">BURN IS EVERYTHING YOU NEED IN ONE WORKOUT</h1>
+                    <h4 class="promotion-text">We’ve combined the best aspects of Hit, Strength Training</h4>
+                    <h4 class="promotion-text">Hard Core Pilates to create a heart pumping,crossfit plus full-body fitness experience.</h4>
+                    <a href="about.html" class="button">Read More...</a>
+                </div>
+            </div>           
+    </section>
+    <!--End Of Slider Area-->
+     <!--Content-->
+     <section class="req-form">
+        <div class="container">
+            <form action="#" id="form3" name="joinform" method="GET">
+                <h2>BECOME A MEMBER</h2>
+                <h3>Personal Details :-</h3>
+                <hr>
+                <div class="row-j">
+                    <div class="col-25">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="name" name="name" onblur="allLetter();">
+                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                </div>
+
+                <div class="row-j">
+                    <div class="col-25">
+                        <label for="phno">Phone</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="phno" name="phno" onblur="phoneNumeric();">
+                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                    </div>
+                </div>
+
+                <div class="row-j">
+                    <div class="col-25">
+                        <label for="mail">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="mail" name="mail" onblur="validateEmail();">
+                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                    </div>
+                </div>
+
+                <div class="row-j">
+                    <div class="col-25">
+                        <label for="city">City</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="city" name="city" required>
+                            <option value="bangalore">Bangalore</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="kolkata">Kolkata</option>
+                            <option value="chennai">Chennai</option>
+                            <option value="pune">Pune</option>
+                        </select>
+                    </div>
+                </div>
+                <br/>
+                <div class="row-j">
+                    <input type="button" id="btnsubmit" value="SUBMIT" onclick="onSubmission();" style="float: right; padding: 15px; color:blue;" >
+                </div> 
+                <h3>Request Details :-</h3>
+                <hr>
+                <a href="bmi.html" style="font-size: large; color: #000;">CALCULATE YOUR BODY MASS INDEX (BMI)</a>
+                
+            </form>
+        </div>
+    </section>
+     <!-- Footer Area -->
+     <footer id=footer-area>
+        <div class="footer">
+                <div class="inner-footer">
+                    <div class="footer-items">
+                    <h1>d5AMGym <sup>&reg;</sup></h1>
+                    <p>GET READY TO BURN.</p>
+                    </div>
+                    <div class="footer-items">
+                        <h2>QUICK LINKs :-</h2>
+                        <div class="border"></div>
+                        <ul> 
+                            <li><a href="about.html"><i class="fa fa-chevron-right"></i>About Us</a></li>
+                            <li><a href="l&p"><i class="fa fa-chevron-right"></i>Location & Pricing</a></li>
+                            <li><a href="gallery.html"><i class="fa fa-chevron-right"></i>Gallery</a></li>
+                            <li><a href="ourteam.html"><i class="fa fa-chevron-right"></i>Our Team</a></li>
+                            <li><a href="joinus.html"><i class="fa fa-chevron-right"></i>Join Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-items">
+                        <h2>CONTACT US</h2>
+                        <div class="border"></div>
+                    
+                            <p>FOR ANY INFO feel free to ask:</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope"></i>infoasr@gmail.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i>+91 9870365206</a></li>
+                            </ul>
+                            <div class="social-media">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true" ></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+                            </div>
+                    </div>
+                </div> 
+                <div class="copyright_area">
+                    &copy;d5AMGym 2020. All rights reserved. 
+                </div>
+            </div>
+     </footer>    
+        <!--End Footer Area -->
+</body>
+</html>
